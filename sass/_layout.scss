@@ -1,0 +1,38 @@
+header {
+  width: 100vw;
+//   height: 20vh;
+  background-color:hsl(239, 56%, 39%);
+//   padding: 0px;
+//   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: -8px;
+  border: 2px solid black;
+}
+h1 {
+  flex-wrap: wrap;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em;
+  flex-direction: column;
+  // justify-content: center;
+}
+.textBox {
+  font-size: 3rem;
+}
+.ahpend{
+  font-size: 7rem;
+}
+.swayzeMe {
+  align-self: flex-end;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px;
+  font-size: 1rem;
+  background-color:rgb(99, 100, 222);
+}
