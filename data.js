@@ -51,7 +51,7 @@ $(document).ready(function (){
         if(inputMovie===movieResults[i].results[j].title.toLowerCase()){
 // WHAT DO YOU WANY ME TO DO //
           SwayzeDay=true;
-          $('.overView').empty();
+          // $('.overView').empty();
           $('.overView').append(movieResults[i].results[j].overview);
 
         }
@@ -60,11 +60,14 @@ $(document).ready(function (){
       }
     }
       $('.ahpend').empty();
+
       if (SwayzeDay===false){
         $('.ahpend').append("Not a SwayzeDay!")
         $('body').css('background-color', 'pink')
+        $('.overView').empty();
       } else {
         // $('.overView').append(movieResults[i].results[j].overview)
+
         $('.ahpend').append("SwayzeDay!!!!")
         $('body').css('background-color', 'blue')
       }
