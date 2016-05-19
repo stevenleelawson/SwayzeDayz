@@ -66,6 +66,7 @@ $(document).ready(function (){
         $('body').css('background-color', 'red')
         $('header').css('background-color','black')
         $('h1').css('color','red')
+        $('main').append('<img src=https://media.giphy.com/media/NPbCChOYWo4aA/giphy.gif>')
         $('.overView').empty();
       } else {
         // $('.overView').append(movieResults[i].results[j].overview)

@@ -1,6 +1,6 @@
 {
-  "firebase": "SwayzeDayz",
-  "public": "public",
+  "firebase": "g-25-lawson-SwayzeDayz",
+  "public": ".",
   "ignore": [
     "firebase.json",
     "**/.*",
