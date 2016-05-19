@@ -18,7 +18,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin: 2em;
-  flex-direction: column;
+  flex-direction: row;
   // justify-content: center;
 }
 .textBox {
@@ -27,12 +27,18 @@ main {
 .ahpend{
   font-size: 7rem;
 }
-.swayzeMe {
-  align-self: flex-end;
-  height: 3rem;
-  width: 9rem;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px;
-  font-size: 1rem;
-  background-color:rgb(99, 100, 222);
+.buttonMan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+// .swayzeMe {
+//   // align-self: flex-start;
+//   height: 3rem;
+//   width: 9rem;
+//   border-radius: 5px;
+//   box-shadow: 2px 2px 2px 2px;
+//   font-size: 1rem;
+//   background-color:rgb(75, 179, 70);
+//   top-margin: 100px;
+// }
