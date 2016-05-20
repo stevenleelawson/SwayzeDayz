@@ -7,22 +7,37 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  flex-flow: column wrap;
   margin: -8px;
-  border: 2px solid black;
+
+
 }
 h1 {
+
   flex-wrap: wrap;
+  color: $white;
+}
+h2 {
+  flex-flow: column-wrap;
+  color: $white;
+  flex-wrap: wrap;
+  // margin-bottom: -50px;
 }
 main {
   display: flex;
   flex-wrap: wrap;
   margin: 2em;
-  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+  // flex-direction: row;
   // justify-content: center;
 }
 .textBox {
   font-size: 2rem;
+  width: 100%;
+  // display: flex;
+  // justify-content: center;
 }
 .ahpend{
   font-size: 7rem;
@@ -30,7 +45,10 @@ main {
 .buttonMan{
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  // padding-right: 100px;
+  // width: 100px;
+  // height: 20px;
 }
 // .swayzeMe {
 //   // align-self: flex-start;
@@ -42,3 +60,17 @@ main {
 //   background-color:rgb(75, 179, 70);
 //   top-margin: 100px;
 // }
+html{
+  height: 100%;
+  width: 100%;
+}
+.swayzeMe {
+  height: 5rem;
+  width: 10rem;
+  background-color: $secondaryColor;
+  color: $white;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  // align-self: flex-end;
+  left:50vw;
+}
