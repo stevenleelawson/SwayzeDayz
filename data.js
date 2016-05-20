@@ -52,6 +52,7 @@ $(document).ready(function (){
 // WHAT DO YOU WANY ME TO DO //
           SwayzeDay=true;
           $('.overView').empty();
+          $('main').append('<img src=https://media.giphy.com/media/dfn2BHWxcQLCg/giphy.gif>')
           $('.overView').append(movieResults[i].results[j].overview);
 
         }
@@ -72,7 +73,7 @@ $(document).ready(function (){
         // $('.overView').append(movieResults[i].results[j].overview)
         // $('.overView').empty();
         $('.ahpend').append("SwayzeDay!!!!")
-        $('body').css('background-color', 'green')
+        $('body').css('background-color', 'hsl(115, 56%, 50%)')
 
       }
     }

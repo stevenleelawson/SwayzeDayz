@@ -42,14 +42,16 @@ main {
   flex-wrap: wrap;
   margin: 2em;
   justify-content: center;
-  align-items: flex-end; }
+  align-items: flex-end;
+  flex-direction: row; }
 
 .textBox {
   font-size: 2rem;
   width: 100%; }
 
 .ahpend {
-  font-size: 7rem; }
+  font-size: 7rem;
+  align-self: column; }
 
 .buttonMan {
   display: flex;
